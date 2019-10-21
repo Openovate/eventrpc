@@ -1,0 +1,27 @@
+{
+  "name": "@openovate/eventrpc",
+  "version": "0.0.1",
+  "description": "Emit server events via HTTP and JSON RPC",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "test": "jest"
+  },
+  "keywords": [
+    "remote events",
+    "event rpc"
+  ],
+  "author": "Christian Blanquera <cblanquera@openovate.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^24.9.0",
+    "node-fetch": "^2.6.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.9"
+  },
+  "dependencies": {
+    "@openovate/jsm": "^0.0.19",
+    "jsonrpc-lite": "^2.0.7",
+    "shortid": "^2.2.15"
+  }
+}
